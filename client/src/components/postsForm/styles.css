@@ -1,0 +1,42 @@
+.postFormContainer {
+  position: relative;
+  top: 20px;
+  left: 0px;
+  width: 100%;
+  height: 625px;
+  /* background: yellow; */
+}
+.textareaContainer {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 154px;
+}
+.postFormTextarea {
+  width: 100%;
+  height: 92px;
+  padding: 11px 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  outline: none;
+}
+.postFormSubmitBtn {
+  background-color: #4caf50;
+  width: 9%;
+  height: 33px;
+  color: white;
+  border-radius: 4px;
+  margin: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+  outline: none;
+}
+.postFeedHeaderText {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 40px;
+  margin-left: 20px;
+}

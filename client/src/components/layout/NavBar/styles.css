@@ -1,0 +1,32 @@
+.naveBarContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  color: red;
+  background-color: #333;
+}
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+.leftListIemt {
+  float: left;
+  color: white;
+  list-style: none;
+}
+.leftListIemt > li {
+  float: left;
+  padding-right: 20px;
+}
+.rightListItem {
+  float: right;
+  color: white;
+  list-style-type: none;
+  margin-right: 20px;
+}
+.rightListItem > li {
+  float: left;
+  padding-right: 40px;
+}

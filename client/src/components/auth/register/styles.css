@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.registerContainer {
+  position: relative;
+  top: 63px;
+  left: 0px;
+  width: 100%;
+  height: 630px;
+  /* background-color: lightgray; */
+}
+.registerformContainer {
+  position: relative;
+  top: 50px;
+  left: 25%;
+  width: 50%;
+  height: 500px;
+  background: white;
+  padding: 10px;
+}
+.registerSignupText {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.registerAccountText {
+  text-align: center;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: -20px;
+}
+.registerSignupCloseLink {
+  text-decoration: none;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.registerSignupClose {
+  float: right;
+}
+.registerInputForm > input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  margin-top: 18px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.2em;
+  line-height: 2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+.registersignupSubmintBtn {
+  background-color: #4caf50;
+  width: 100%;
+  height: 40px;
+  margin-top: 26px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 100;
+  color: white;
+  outline: none;
+}
+.isInvalid {
+  color: red;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+}
